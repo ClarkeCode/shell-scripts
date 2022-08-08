@@ -10,6 +10,7 @@ DESIRED=(
 	"ranger" #Filesystem navigation
 	"graphviz" #Flowchart diagram tools
 	"texlive"  #LaTeX text formatting engine
+	"texlive-latex-extra" #Additional add-ons for LaTeX
 	"w3m"      #TUI web browser
 
 	"transmission-cli"    #Filesharing
@@ -52,4 +53,3 @@ elif [[ "$COMMAND" == "show" ]]; then
 else
 	show-usage
 fi
-
